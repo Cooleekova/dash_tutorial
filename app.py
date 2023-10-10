@@ -9,7 +9,7 @@ app = Dash(__name__)
 # The app layout represents the app components that will be displayed in the web browser, 
 # normally contained within a html.Div.
 app.layout = html.Div([
-    html.Div(children='Hello World')
+    html.Div(children='Hello World'),
 ])
 
 # These lines are for running your app, 
